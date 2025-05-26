@@ -1,0 +1,100 @@
+/* AdminDashboard.css */
+.admin-dash-root {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #f8fafc;
+    min-height: 100vh;
+  }
+  
+  .admin-dash-heading {
+    color: #1e293b;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 15px;
+  }
+  
+  .admin-dash-controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .admin-dash-btn-primary {
+    background: #3b82f6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .admin-dash-btn-primary:hover {
+    background: #2563eb;
+  }
+  
+  .admin-dash-btn-export {
+    background: #10b981;
+  }
+  
+  .admin-dash-btn-export:hover {
+    background: #059669;
+  }
+  
+  .admin-dash-list-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 25px;
+    margin-top: 20px;
+  }
+  
+  .admin-dash-sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .admin-dash-list-item {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f1f5f9;
+    font-family: monospace;
+    color: #475569;
+  }
+  
+  .admin-dash-list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .admin-dash-logout {
+    margin-top: 40px;
+    background: #ef4444;
+  }
+  
+  .admin-dash-logout:hover {
+    background: #dc2626;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-dash-root {
+      padding: 20px;
+    }
+    
+    .admin-dash-controls {
+      flex-direction: column;
+    }
+    
+    .admin-dash-btn-primary {
+      width: 100%;
+      padding: 12px;
+    }
+    
+    .admin-dash-list-container {
+      padding: 15px;
+    }
+  }

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+#hero {
+    height: 100vh;
+    /* background: url('../assets/Mina.PNG') center/cover no-repeat; */
+    background: #004f2f9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 80vh;
+    color: rgb(248, 136, 31);
+  }
+  .carattere-regular {
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .hero-content h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .hero-content .author {
+    color: rgb(109, 251, 109);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .hero {
+      background-position: top;
+    }
+  
+    .hero-content h1 {
+      font-size: 70px;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  }
