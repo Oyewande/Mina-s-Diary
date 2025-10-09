@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  padding: 1rem;
+  background: #000c04;
+  color: #fff;
+  font-size: 8px;
+  position: relative;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+}
+
+.instagram-link {
+  color: #fff; 
+  margin-right: 10px; 
+  transition: color 0.3s ease-in-out;
+}
+
+.instagram-link:hover {
+  color: #f44e6c; 
+}
+
+.instagram-icon {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .instagram-link {
+    flex-direction: column; 
+    gap: 5px; 
+  }
+}

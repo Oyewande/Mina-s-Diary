@@ -1,0 +1,24 @@
+#purchase {
+  background: #0061286c;
+  color: white;
+  text-align: center;
+}
+
+#purchase ul {
+  list-style: none;
+  padding: 10px;
+}
+
+#purchase ul li a {
+  margin: 10px 0;
+  color: #feb311;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#purchase ul li a:hover {
+  text-decoration: underline;
+}
+#purchase ul li a:visited {
+  color: #f5d671;
+}
